@@ -8,18 +8,19 @@
     <title>Phonesite</title>
 </head>
 <body>
+
     <div class="main-container">
         <div class="navbar">
-            <img src="/images/logo1.png" class="logo">
+            <img src="images/logo1.png" class="logo">
             <nav>
-                <ul>
+                <ul id="mainMenu">
                     <li><a href="">2022 models</a></li>
                     <li><a href="">Appliances</a></li>
                     <li><a href="">Computing</a></li>
                     <li><a href="">Memory & Storage</a></li>
                 </ul>
             </nav>
-            <img src="/images/menu.png" class="menu-icon">
+            <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
         </div>
 
         <div>
@@ -29,18 +30,28 @@
                     <h3>Wireless Charging</h3>
                     <p>128GB storage</p>
                     <h4>$2000</h4>
-                    <button type="button">Buy Now<img src="/images/arrow.png"</button>
+                    <button type="button">Buy Now<img src="images/arrow.png"></button>
                 </div>
 
                 <div class="column-2">
-                    <img src="/images/phone.png" class="phone">
-                    <div class="color-box">
-
+                    <img src="images/phone.png" class="phone">
+                    <div class="color-box"></div>
+                    <div class="cart-button">
+                        <img src="images/add.png" class="add-button">
+                        <p class="addtocart"><small>Add to Cart</small></p>
                     </div>
                 </div> 
             </div>
         </div>
+
+        <div class="social-links">
+            <img src="images/fb.png"><a href="#"></a>
+            <img src="images/ig.png"><a href="#"></a>
+            <img src="images/tw.png"><a href="#"></a>
+        
+        </div>
     </div>
     
+<script src="app.js"></script>
 </body>
 </html>
